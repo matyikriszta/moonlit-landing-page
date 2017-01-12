@@ -1981,6 +1981,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
+.container { background-image: -webkit-linear-gradient( bottom, #001b44, #5e2ca5 ); background-image: linear-gradient( 0deg, #001b44, #5e2ca5 ); }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
