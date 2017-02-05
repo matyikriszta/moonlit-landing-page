@@ -117,6 +117,7 @@
 .bg-light-yellow { background-color: var(--light-yellow); }
 .bg-purple { background-color: var(--purple); }
 .bg-light-purple { background-color: var(--light-purple); }
+.bg-dark-purple { background-color: var(--dark-purple); }
 .bg-dark-pink { background-color: var(--dark-pink); }
 .bg-hot-pink { background-color: var(--hot-pink); }
 .bg-pink { background-color: var(--pink); }
