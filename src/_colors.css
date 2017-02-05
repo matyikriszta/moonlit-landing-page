@@ -58,8 +58,9 @@
   --gold:  #ffb700;
   --yellow:  #ffd700;
   --light-yellow:  #fbf1a9;
-  --purple:  #322a5a;
+  --purple:  #5e2ca5;
   --light-purple:  #a463f2;
+  --dark-purple:  #312b5c;
   --dark-pink:  #d5008f;
   --hot-pink: #ff41b4;
   --pink:  #ff80cc;
@@ -74,7 +75,7 @@
   --lightest-blue:  #cdecff;
   --washed-blue:  #f6fffe;
   --washed-green:  #e8fdf5;
-  --washed-yellow:  #fffceb;
+  --washed-yellow:  #fefde8;
   --washed-red:  #ffdfdf;
 
 }
