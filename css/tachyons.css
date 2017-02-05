@@ -433,8 +433,8 @@ img { max-width: 100%; }
 .b--gold { border-color: #ffb700; }
 .b--yellow { border-color: #ffd700; }
 .b--light-yellow { border-color: #fbf1a9; }
-.b--purple { border-color: #322a5a; }
-.b--light-purple { border-color: #a463f2; }
+.b--purple { border-color: #5e2ca5; }
+.b--light-purple { border-color: #67669b; }
 .b--dark-pink { border-color: #d5008f; }
 .b--hot-pink { border-color: #ff41b4; }
 .b--pink { border-color: #ff80cc; }
@@ -449,7 +449,7 @@ img { max-width: 100%; }
 .b--lightest-blue { border-color: #cdecff; }
 .b--washed-blue { border-color: #f6fffe; }
 .b--washed-green { border-color: #e8fdf5; }
-.b--washed-yellow { border-color: #fffceb; }
+.b--washed-yellow { border-color: #fefde8; }
 .b--washed-red { border-color: #ffdfdf; }
 .b--transparent { border-color: transparent; }
 /*
@@ -775,7 +775,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
 .baskerville { font-family: baskerville, serif; }
-.raleway { font-family: 'Raleway', sans-serif; }
+.raleway-regular { font-family: 'Raleway', sans-serif; font-weight: 400; }
+.raleway-medium { font-family: 'Raleway', sans-serif; font-weight: 500; }
+.raleway-semibold { font-family: 'Raleway', sans-serif; font-weight: 600; }
+.raleway-bold { font-family: 'Raleway', sans-serif; font-weight: 700; }
 /*
 
    FONT STYLE
@@ -1110,8 +1113,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
    Docs: http://tachyons.io/docs/themes/skins/
 
    Classes for setting foreground and background colors on elements.
-   If you haven't declared a border color, but set border on an element, it will 
-   be set to the current text color. 
+   If you haven't declared a border color, but set border on an element, it will
+   be set to the current text color.
 
 */
 /* Text colors */
@@ -1152,8 +1155,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .gold { color: #ffb700; }
 .yellow { color: #ffd700; }
 .light-yellow { color: #fbf1a9; }
-.purple { color: #322a5a; }
-.light-purple { color: #a463f2; }
+.purple { color: #5e2ca5; }
+.light-purple { color: #67669b; }
+.dark-purple { color: #312b5c; }
 .dark-pink { color: #d5008f; }
 .hot-pink { color: #ff41b4; }
 .pink { color: #ff80cc; }
@@ -1168,7 +1172,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .lightest-blue { color: #cdecff; }
 .washed-blue { color: #f6fffe; }
 .washed-green { color: #e8fdf5; }
-.washed-yellow { color: #fffceb; }
+.washed-yellow { color: #fefde8; }
 .washed-red { color: #ffdfdf; }
 .bg-black-90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bg-black-80 { background-color: rgba( 0, 0, 0, .8 ); }
@@ -1209,8 +1213,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-gold { background-color: #ffb700; }
 .bg-yellow { background-color: #ffd700; }
 .bg-light-yellow { background-color: #fbf1a9; }
-.bg-purple { background-color: #322a5a; }
-.bg-light-purple { background-color: #a463f2; }
+.bg-purple { background-color: #5e2ca5; }
+.bg-light-purple { background-color: #67669b; }
+.bg-dark-purple { background-color: #312b5c; }
 .bg-dark-pink { background-color: #d5008f; }
 .bg-hot-pink { background-color: #ff41b4; }
 .bg-pink { background-color: #ff80cc; }
@@ -1225,7 +1230,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-lightest-blue { background-color: #cdecff; }
 .bg-washed-blue { background-color: #f6fffe; }
 .bg-washed-green { background-color: #e8fdf5; }
-.bg-washed-yellow { background-color: #fffceb; }
+.bg-washed-yellow { background-color: #fefde8; }
 .bg-washed-red { background-color: #ffdfdf; }
 /* 
   
@@ -1367,10 +1372,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-yellow:focus { color: #ffd700; }
 .hover-light-yellow:hover { color: #fbf1a9; }
 .hover-light-yellow:focus { color: #fbf1a9; }
-.hover-purple:hover { color: #322a5a; }
-.hover-purple:focus { color: #322a5a; }
-.hover-light-purple:hover { color: #a463f2; }
-.hover-light-purple:focus { color: #a463f2; }
+.hover-purple:hover { color: #5e2ca5; }
+.hover-purple:focus { color: #5e2ca5; }
+.hover-light-purple:hover { color: #67669b; }
+.hover-light-purple:focus { color: #67669b; }
 .hover-dark-pink:hover { color: #d5008f; }
 .hover-dark-pink:focus { color: #d5008f; }
 .hover-hot-pink:hover { color: #ff41b4; }
@@ -1399,8 +1404,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-washed-blue:focus { color: #f6fffe; }
 .hover-washed-green:hover { color: #e8fdf5; }
 .hover-washed-green:focus { color: #e8fdf5; }
-.hover-washed-yellow:hover { color: #fffceb; }
-.hover-washed-yellow:focus { color: #fffceb; }
+.hover-washed-yellow:hover { color: #fefde8; }
+.hover-washed-yellow:focus { color: #fefde8; }
 .hover-washed-red:hover { color: #ffdfdf; }
 .hover-washed-red:focus { color: #ffdfdf; }
 .hover-bg-dark-red:hover { background-color: #e7040f; }
@@ -1417,10 +1422,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-yellow:focus { background-color: #ffd700; }
 .hover-bg-light-yellow:hover { background-color: #fbf1a9; }
 .hover-bg-light-yellow:focus { background-color: #fbf1a9; }
-.hover-bg-purple:hover { background-color: #322a5a; }
-.hover-bg-purple:focus { background-color: #322a5a; }
-.hover-bg-light-purple:hover { background-color: #a463f2; }
-.hover-bg-light-purple:focus { background-color: #a463f2; }
+.hover-bg-purple:hover { background-color: #5e2ca5; }
+.hover-bg-purple:focus { background-color: #5e2ca5; }
+.hover-bg-light-purple:hover { background-color: #67669b; }
+.hover-bg-light-purple:focus { background-color: #67669b; }
 .hover-bg-dark-pink:hover { background-color: #d5008f; }
 .hover-bg-dark-pink:focus { background-color: #d5008f; }
 .hover-bg-hot-pink:hover { background-color: #ff41b4; }
@@ -1449,8 +1454,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-washed-blue:focus { background-color: #f6fffe; }
 .hover-bg-washed-green:hover { background-color: #e8fdf5; }
 .hover-bg-washed-green:focus { background-color: #e8fdf5; }
-.hover-bg-washed-yellow:hover { background-color: #fffceb; }
-.hover-bg-washed-yellow:focus { background-color: #fffceb; }
+.hover-bg-washed-yellow:hover { background-color: #fefde8; }
+.hover-bg-washed-yellow:focus { background-color: #fefde8; }
 .hover-bg-washed-red:hover { background-color: #ffdfdf; }
 .hover-bg-washed-red:focus { background-color: #ffdfdf; }
 /* Variables */
@@ -1983,7 +1988,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
-.container { background-image: url( "../images/constellations.svg" ), -webkit-linear-gradient( bottom, #001b44, #322a5a ); background-image: url( "../images/constellations.svg" ), linear-gradient( 0deg, #001b44, #322a5a ); background-size: cover, cover; background-position: top center, center; }
+.container { background-image: url( "../images/constellations.svg" ), -webkit-linear-gradient( bottom, #001b44, #312b5c ); background-image: url( "../images/constellations.svg" ), linear-gradient( 0deg, #001b44, #312b5c ); background-size: 100%, auto; background-position: top center, center; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
