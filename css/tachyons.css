@@ -433,7 +433,7 @@ img { max-width: 100%; }
 .b--gold { border-color: #ffb700; }
 .b--yellow { border-color: #ffd700; }
 .b--light-yellow { border-color: #fbf1a9; }
-.b--purple { border-color: #5e2ca5; }
+.b--purple { border-color: #322a5a; }
 .b--light-purple { border-color: #a463f2; }
 .b--dark-pink { border-color: #d5008f; }
 .b--hot-pink { border-color: #ff41b4; }
@@ -443,7 +443,7 @@ img { max-width: 100%; }
 .b--green { border-color: #19a974; }
 .b--light-green { border-color: #9eebcf; }
 .b--navy { border-color: #001b44; }
-.b--dark-blue { border-color: #00449e; }
+.b--dark-blue { border-color: #12093c; }
 .b--blue { border-color: #357edd; }
 .b--light-blue { border-color: #96ccff; }
 .b--lightest-blue { border-color: #cdecff; }
@@ -558,7 +558,7 @@ img { max-width: 100%; }
    -l  = large
 
  */
-.shadow-1 { box-shadow: 0 0 4px 2px rgba( 0, 0, 0, .2 ); }
+.shadow-1 { box-shadow: 0 0 4px 2px rgba( 255, 255, 255, .1 ); }
 .shadow-2 { box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, .2 ); }
 .shadow-4 { box-shadow: 2px 2px 8px 0 rgba( 0, 0, 0, .2 ); }
@@ -775,6 +775,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .calisto { font-family: "Calisto MT", serif; }
 .garamond { font-family: garamond, serif; }
 .baskerville { font-family: baskerville, serif; }
+.raleway { font-family: 'Raleway', sans-serif; }
 /*
 
    FONT STYLE
@@ -968,10 +969,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .mw3 { max-width: 4rem; }
 .mw4 { max-width: 8rem; }
 .mw5 { max-width: 16rem; }
-.mw6 { max-width: 32rem; }
-.mw7 { max-width: 48rem; }
-.mw8 { max-width: 64rem; }
-.mw9 { max-width: 96rem; }
+.mw6 { max-width: 18rem; }
+.mw7 { max-width: 32rem; }
+.mw8 { max-width: 48rem; }
+.mw9 { max-width: 64rem; }
+.mw10 { max-width: 96rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
 /*
@@ -1150,7 +1152,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .gold { color: #ffb700; }
 .yellow { color: #ffd700; }
 .light-yellow { color: #fbf1a9; }
-.purple { color: #5e2ca5; }
+.purple { color: #322a5a; }
 .light-purple { color: #a463f2; }
 .dark-pink { color: #d5008f; }
 .hot-pink { color: #ff41b4; }
@@ -1160,7 +1162,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .green { color: #19a974; }
 .light-green { color: #9eebcf; }
 .navy { color: #001b44; }
-.dark-blue { color: #00449e; }
+.dark-blue { color: #12093c; }
 .blue { color: #357edd; }
 .light-blue { color: #96ccff; }
 .lightest-blue { color: #cdecff; }
@@ -1207,7 +1209,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-gold { background-color: #ffb700; }
 .bg-yellow { background-color: #ffd700; }
 .bg-light-yellow { background-color: #fbf1a9; }
-.bg-purple { background-color: #5e2ca5; }
+.bg-purple { background-color: #322a5a; }
 .bg-light-purple { background-color: #a463f2; }
 .bg-dark-pink { background-color: #d5008f; }
 .bg-hot-pink { background-color: #ff41b4; }
@@ -1217,7 +1219,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .bg-green { background-color: #19a974; }
 .bg-light-green { background-color: #9eebcf; }
 .bg-navy { background-color: #001b44; }
-.bg-dark-blue { background-color: #00449e; }
+.bg-dark-blue { background-color: #12093c; }
 .bg-blue { background-color: #357edd; }
 .bg-light-blue { background-color: #96ccff; }
 .bg-lightest-blue { background-color: #cdecff; }
@@ -1365,8 +1367,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-yellow:focus { color: #ffd700; }
 .hover-light-yellow:hover { color: #fbf1a9; }
 .hover-light-yellow:focus { color: #fbf1a9; }
-.hover-purple:hover { color: #5e2ca5; }
-.hover-purple:focus { color: #5e2ca5; }
+.hover-purple:hover { color: #322a5a; }
+.hover-purple:focus { color: #322a5a; }
 .hover-light-purple:hover { color: #a463f2; }
 .hover-light-purple:focus { color: #a463f2; }
 .hover-dark-pink:hover { color: #d5008f; }
@@ -1385,8 +1387,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-light-green:focus { color: #9eebcf; }
 .hover-navy:hover { color: #001b44; }
 .hover-navy:focus { color: #001b44; }
-.hover-dark-blue:hover { color: #00449e; }
-.hover-dark-blue:focus { color: #00449e; }
+.hover-dark-blue:hover { color: #12093c; }
+.hover-dark-blue:focus { color: #12093c; }
 .hover-blue:hover { color: #357edd; }
 .hover-blue:focus { color: #357edd; }
 .hover-light-blue:hover { color: #96ccff; }
@@ -1415,8 +1417,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-yellow:focus { background-color: #ffd700; }
 .hover-bg-light-yellow:hover { background-color: #fbf1a9; }
 .hover-bg-light-yellow:focus { background-color: #fbf1a9; }
-.hover-bg-purple:hover { background-color: #5e2ca5; }
-.hover-bg-purple:focus { background-color: #5e2ca5; }
+.hover-bg-purple:hover { background-color: #322a5a; }
+.hover-bg-purple:focus { background-color: #322a5a; }
 .hover-bg-light-purple:hover { background-color: #a463f2; }
 .hover-bg-light-purple:focus { background-color: #a463f2; }
 .hover-bg-dark-pink:hover { background-color: #d5008f; }
@@ -1435,8 +1437,8 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .hover-bg-light-green:focus { background-color: #9eebcf; }
 .hover-bg-navy:hover { background-color: #001b44; }
 .hover-bg-navy:focus { background-color: #001b44; }
-.hover-bg-dark-blue:hover { background-color: #00449e; }
-.hover-bg-dark-blue:focus { background-color: #00449e; }
+.hover-bg-dark-blue:hover { background-color: #12093c; }
+.hover-bg-dark-blue:focus { background-color: #12093c; }
 .hover-bg-blue:hover { background-color: #357edd; }
 .hover-bg-blue:focus { background-color: #357edd; }
 .hover-bg-light-blue:hover { background-color: #96ccff; }
@@ -1981,7 +1983,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
   Add custom styles here.
 
 */
-.container { background-image: -webkit-linear-gradient( bottom, #001b44, #5e2ca5 ); background-image: linear-gradient( 0deg, #001b44, #5e2ca5 ); }
+.container { background-image: url( "../images/constellations.svg" ), -webkit-linear-gradient( bottom, #001b44, #322a5a ); background-image: url( "../images/constellations.svg" ), linear-gradient( 0deg, #001b44, #322a5a ); background-size: cover, cover; background-position: top center, center; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
