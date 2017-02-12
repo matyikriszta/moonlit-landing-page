@@ -7,7 +7,7 @@
 */
 
 .container {
-  background-image: url("../images/constellations.svg"), linear-gradient(0deg, var(--navy), var(--purple));
-  background-size: cover, cover;
+  background-image: url("../images/constellations.svg"), linear-gradient(0deg, var(--navy), var(--dark-purple));
+  background-size: 100%, auto;
   background-position: top center, center;
 }
